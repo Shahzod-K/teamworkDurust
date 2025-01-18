@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png'
 
 const Header = () => {
   return (
-    <header className='h-[100px] flex justify-center items-center'>
+    <header className='w-full h-[100px] flex justify-center items-center absolute'>
       <div className='w-[1230px] flex justify-between items-center'>
         <Link to={'/'}><img src={logo} /></Link>
         <div className='flex gap-5'>
