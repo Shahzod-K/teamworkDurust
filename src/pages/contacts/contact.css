@@ -1,0 +1,9 @@
+.backContact{
+    background-image: url(./contactImgs/backContact.png);
+}
+.backLine1{
+    background: linear-gradient(#DADBDD00, 50%, #DADBDD80);
+}
+.backLine2{
+    background: linear-gradient(#DADBDD80, 50%, #DADBDD00);
+}
