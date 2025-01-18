@@ -6,10 +6,15 @@ import img3 from "./picturesAb/illustration (1).png";
 import img4 from "./picturesAb/illustration (2).png";
 import img5 from "./picturesAb/illustration (3).png";
 import img6 from "./picturesAb/illustration (4).png";
+import img7 from "./picturesAb/ic-cart.png"
+import img8 from "./picturesAb/ic-startup.png"
+import img9 from "./picturesAb/ic-suitcase.png"
+import img10 from "./picturesAb/ic-website.png"
 import "./case.css";
+import Card1 from "../main/card1/card1";
 const CaseStudies = () => {
   return (
-    <div className="max-w-[1200px] mx-auto">
+    <div className="max-w-[1400px] mx-auto">
       <div className="">
         <div className=" fail h-[75vh]">
           <p className="text-center text-[white] text-[42px] pt-[120px]">
@@ -120,6 +125,38 @@ const CaseStudies = () => {
           </div>
           <div className="">
             <img src={img6} className="w-[500px]" alt="" />
+          </div>
+        </div>
+        <Card1 />
+        <p className="text-center text-[37px] mt-[100px] mb-[50px]">Markets in which we operate</p>
+        <div className="flex justify-center items-center gap-[100px] mb-[70px]">
+          <div className="flex flex-col justify-center items-center gap-[15px]">
+            <img src={img7} alt="" />
+            <p className="">E-commerce Websites</p>
+            <p className="w-[200px] text-center">
+              Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-[15px]">
+            <img src={img8} alt="" />
+            <p className="">E-commerce Websites</p>
+            <p className="w-[200px] text-center">
+              Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-[15px]">
+            <img src={img9} alt="" />
+            <p className="">E-commerce Websites</p>
+            <p className="w-[200px] text-center">
+              Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-[15px]">
+            <img src={img10} alt="" />
+            <p className="">E-commerce Websites</p>
+            <p className="w-[200px] text-center">
+              Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.
+            </p>
           </div>
         </div>
       </div>
