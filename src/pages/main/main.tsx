@@ -19,6 +19,8 @@ import "./home.css/home.css"
 import surat6 from './imageMurodbek/play-video.png'
 import suratHeader from './imageMurodbek/illustration (5).png'
 import Card1 from './card1/card1'
+import Card2 from './card2/card2'
+import Card3 from './card3/card3'
 const Main = () => {
   return (
     <div className="max-w-[1250px] mx-auto ">
@@ -159,6 +161,7 @@ const Main = () => {
           <img src={ImageOfPerson} alt="" />
         </div>
       </div>
+      <Card2/>
       <h1 className='text-[40px] text-center mt-[50px]'>Our benefits</h1>
       <div className='w-[90%] m-auto flex justify-evenly mt-[50px]'>
         <div className='w-[30%] '>
@@ -252,10 +255,11 @@ const Main = () => {
             <h1 className='text-[16px] mt-[20px]'>Information Technology</h1>
           </div>
           <button className='w-[120px] h-[40px] border mt-[40px] text-[blue] '>Choose plan</button>
-        </div>
+        </div>   
+
       </div>
       <h1 className='text-[40px] text-center mt-[70px]'>What our clients say</h1>
-      <div className='w-[70%] m-auto p-[20px] shadow-2xl'>
+      <div className='w-[70%] m-auto p-[20px] shadow-2xl mb-[40px]'>
         <div>
           <h1 className='text-[20px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</h1>
         </div>
@@ -264,11 +268,13 @@ const Main = () => {
             <img src={surat5} alt="" />
           </div>
           <div>
+
             <h1 className='text-[20px] font-bold'>Courtney Alexander</h1>
             <h1 className='mt-[10px]'>Position, Company name</h1>
           </div>
         </div>
       </div>
+    <Card3/>
     </div>
   )
 }
