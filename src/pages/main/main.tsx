@@ -255,7 +255,8 @@ const Main = () => {
             <h1 className='text-[16px] mt-[20px]'>Information Technology</h1>
           </div>
           <button className='w-[120px] h-[40px] border mt-[40px] text-[blue] '>Choose plan</button>
-        </div>
+        </div>   
+
       </div>
       <h1 className='text-[40px] text-center mt-[70px]'>What our clients say</h1>
       <div className='w-[70%] m-auto p-[20px] shadow-2xl mb-[40px]'>
@@ -267,13 +268,13 @@ const Main = () => {
             <img src={surat5} alt="" />
           </div>
           <div>
+
             <h1 className='text-[20px] font-bold'>Courtney Alexander</h1>
             <h1 className='mt-[10px]'>Position, Company name</h1>
           </div>
         </div>
       </div>
-
-      <Card3/>
+             <Card3/>
     </div>
   )
 }
