@@ -1,0 +1,11 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.divHeader
+{
+     background-image: url("../imageMurodbek/background (2).png");
+     background-size: cover;
+}
