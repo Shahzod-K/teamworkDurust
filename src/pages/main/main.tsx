@@ -274,7 +274,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-             <Card3/>
+    <Card3/>
     </div>
   )
 }
