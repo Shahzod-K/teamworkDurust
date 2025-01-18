@@ -38,7 +38,7 @@ const Main = () => {
 
       <div className="w-[90%] m-auto flex justify-center gap-[20px] mt-[100px]">
         <div className="w-[35%]">
-          <h1 className="text-[20px]">Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</h1>
+          <h1 className="text-[20px]">Createx SEO Agency not is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</h1>
         </div>
         <div className='w-[50%] flex flex-wrap gap-[10px]'>
           <div className='w-[230px]  flex items-center'>
