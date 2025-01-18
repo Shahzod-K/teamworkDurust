@@ -12,6 +12,8 @@ import img9 from "./picturesAb/ic-suitcase.png"
 import img10 from "./picturesAb/ic-website.png"
 import "./case.css";
 import Card1 from "../main/card1/card1";
+import Card2 from "../main/card2/card2";
+import Card3 from "../main/card3/card3";
 const CaseStudies = () => {
   return (
     <div className="max-w-[1400px] mx-auto">
@@ -159,6 +161,8 @@ const CaseStudies = () => {
             </p>
           </div>
         </div>
+        <Card2/>
+        <Card3/>
       </div>
     </div>
   );
