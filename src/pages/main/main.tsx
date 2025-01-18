@@ -18,9 +18,10 @@ import surat5 from './imageMurodbek/image (38).png'
 import "./home.css/home.css"
 import surat6 from './imageMurodbek/play-video.png'
 import suratHeader from './imageMurodbek/illustration (5).png'
+import Card1 from './card1/card1'
 const Main = () => {
   return (
-    <div className="max-w-[1200px] mx-auto ">
+    <div className="max-w-[1250px] mx-auto ">
       <div className=' divHeader  w-[100%] h-[700px] flex justify-evenly items-center'>
         <div className='w-[40%]  text-[white]'>
           <h1 className='text-[40px] text-[white] '>Best <span className='text-[#7772F1]' > SEO & Marketing </span> Solutions for You</h1>
@@ -35,10 +36,9 @@ const Main = () => {
           <img className='w-[500px]' src={suratHeader} alt="" />
         </div>
       </div>
-
       <div className="w-[90%] m-auto flex justify-center gap-[20px] mt-[100px]">
         <div className="w-[35%]">
-          <h1 className="text-[20px]">Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</h1>
+          <h1 className="text-[20px]">Createx SEO Agency not is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</h1>
         </div>
         <div className='w-[50%] flex flex-wrap gap-[10px]'>
           <div className='w-[230px]  flex items-center'>
@@ -142,6 +142,8 @@ const Main = () => {
           <img src={Table} alt="" />
         </div>
       </div>
+
+      <Card1/>
 
       <div className='w-[90%] m-auto mt-[80px] flex justify-evenly'>
         <div className='w-[50%]'>
