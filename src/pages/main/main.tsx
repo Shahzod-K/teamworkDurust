@@ -35,7 +35,6 @@ const Main = () => {
           <img className='w-[500px]' src={suratHeader} alt="" />
         </div>
       </div>
-
       <div className="w-[90%] m-auto flex justify-center gap-[20px] mt-[100px]">
         <div className="w-[35%]">
           <h1 className="text-[20px]">Createx SEO Agency not is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</h1>
